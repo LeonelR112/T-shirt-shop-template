@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(32, 32, 32);
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/*fuente agregada: font-family: 'Fjalla One', sans-serif;  */
+/*-------------------header-------------------*/
+.header{
+    height: auto; 
+}
+
+.bg-header{
+    background-color: black;
+    height: 70px;
+}
+
+.logo-text{
+    font-size: 30px;
+}
+
+.link1{
+    color:white;
+    font-weight: bold;
+}
+
+.linkNone:hover{
+    text-decoration: none;
+}
