@@ -12,8 +12,8 @@ body{
 }
 
 .bg-header{
+    height: auto;
     background-color: black;
-    height: 70px;
 }
 
 .logo-text{
@@ -23,8 +23,53 @@ body{
 .link1{
     color:white;
     font-weight: bold;
+    font-size: 15px;
+}
+
+.link-hover1:hover{
+    color: rgb(255,193,7);
+}
+
+.link-hover2:hover{
+    color: rgb(253, 230, 160);
 }
 
 .linkNone:hover{
     text-decoration: none;
+}
+
+/*-------------------main----------------------*/
+.home{
+    width: 100%;
+    height: 20em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+
+    background: url(/assets/imgs/photo/shirtShop1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.home span{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    text-shadow: 2px 2px 3px white;
+    text-shadow: -2px -2px 3px white;
+}
+
+.home span a{
+    color: black;
+}
+
+.home .subtitle{
+    color: rgb(255,193,7);
+    font-size: 20px;
+    width: 20%;
+    background-color: black;
+    align-self: center;
 }
