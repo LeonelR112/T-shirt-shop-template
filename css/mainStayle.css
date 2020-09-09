@@ -79,3 +79,49 @@ body{
 .mainSales{
     padding-top:2em ;
 }
+
+/*-------------productos---------------------*/
+
+.imagen{
+    height: 15em;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.view{
+    position: absolute;
+    bottom: -70px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 3em;
+    color: white;
+    line-height: 3em;
+    text-align: center;
+    font-family: cursive;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
+}
+
+#cardView:hover .view{
+    bottom: 0px;
+}
+
+.price{
+    color: rgb(69, 134, 64);
+    font-size: 24px;
+}
+
+.imagen2{
+    background: url('./../assets/imgs/photo/shirtShop2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text-lecture1{
+    background: rgba(0,0,0,0.4);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
