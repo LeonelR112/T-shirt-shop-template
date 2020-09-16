@@ -1,3 +1,21 @@
+/*animaciones*/
+@keyframes neonLight{
+    0%{
+        text-shadow: 2px 2px 3px white;
+        text-shadow: -2px -2px 3px white;
+    }
+    50%{
+        text-shadow: 2px 2px 3px rgb(243, 4, 4);
+        text-shadow: -2px -2px 3px rgb(243, 4, 4);
+    }
+    100%{
+        text-shadow: 2px 2px 3px rgb(251, 255, 0);
+        text-shadow: -2px -2px 3px rgb(251, 255, 0);
+    }
+}
+
+/*------------*/
+
 body{
     margin: 0px;
     padding: 0px;
@@ -62,6 +80,12 @@ body{
     font-size: 55px;
     text-shadow: 2px 2px 3px white;
     text-shadow: -2px -2px 3px white;
+
+    animation-name: neonLight;
+    animation-duration: 2000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 .home span a{
@@ -76,8 +100,22 @@ body{
     align-self: center;
 }
 
+.home .subtitle2{
+    color: rgb(255,193,7);
+    font-size: 40px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: black;
+    align-self: center;
+}
+
 .mainSales{
     padding-top:2em ;
+}
+
+.shirtHeart{
+    float: left;
 }
 
 /*-------------productos---------------------*/
