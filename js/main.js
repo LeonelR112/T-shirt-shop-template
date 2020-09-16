@@ -11,4 +11,17 @@ $(document).ready(function(){
        console.log('ultima posicion: '+ last_known_scroll_position)
        console.log(bgpy)
     })*/
+
+    $(window).resize( function(e){
+        let height = window.innerWidth
+        let nav = document.querySelector('nav')
+        console.log(height)
+
+        if(height <= 574){
+           nav.style.visibility = 'hidden'
+        }
+        else{
+            nav.style.visibility = 'visible'
+        }
+    })
 })
