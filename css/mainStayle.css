@@ -118,9 +118,40 @@ body{
     float: left;
 }
 
-.menuResponisve{
-    position: absolute;
+#menuRes{
+    display:hidden;
 }
+
+/*menu responsive*/
+
+.menuResponsive{
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(44, 44, 44);
+    z-index: 10;
+
+    transition: ease-in-out;
+    transition-property: width;
+    transition-duration: 500ms;
+}
+
+.linkMenu{
+    display:block;
+    color: rgb(255,193,7);
+}
+.linkMenu:hover{
+    display:block;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+
+.fontLink1{
+    font-size: 28px;
+}
+
+/*---------------*/
 
 /*-------------productos---------------------*/
 
