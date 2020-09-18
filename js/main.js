@@ -1,11 +1,7 @@
 
 $(document).ready(function(){
 
-    if(window.innerWidth < 574){
-        document.querySelector('nav').style.visibility = 'hidden'
-        document.getElementById('menuRes').style.display = 'block'
-    }
-/*
+    /*
     let background1 = document.getElementById('background1')
 
     window.addEventListener('scroll', (e) => {
@@ -35,6 +31,7 @@ $(document).ready(function(){
 })
 
 /*----------------------menu responsive----------------------- */
+/*>>>>>>>>>>>>>>>>>>>> COPIAR EL HEADER DEL INDEX A LOS OTROS TEMPLATES<<<<<<<<<<<<<<<<<<<<< */
 
 $(document.getElementById('menuRes')).click(function(e){
     e.preventDefault();
