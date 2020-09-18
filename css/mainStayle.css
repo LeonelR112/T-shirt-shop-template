@@ -110,6 +110,21 @@ body{
     align-self: center;
 }
 
+.subtitle3{
+    color: rgb(255,193,7);
+    font-size: 40px;
+    width: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 2px;
+    background-color: black;
+    align-self: center;
+}
+
+.font-medium{
+    font-size: 18px;
+}
+
 .mainSales{
     padding-top:2em ;
 }
@@ -149,6 +164,10 @@ body{
 
 .fontLink1{
     font-size: 28px;
+}
+
+.fontNormal{
+    font-family: sans-serif;
 }
 
 /*---------------*/

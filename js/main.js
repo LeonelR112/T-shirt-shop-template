@@ -1,6 +1,16 @@
 
 $(document).ready(function(){
 
+    $('body').ready(function(){
+        let nav = document.querySelector('nav')
+        let menu = document.getElementById('menuRes')
+
+        if(window.innerWidth < 574){
+            nav.style.visibility = 'hidden'
+            menu.style.display = 'block'
+        }
+    })
+
     /*
     let background1 = document.getElementById('background1')
 
