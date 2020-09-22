@@ -67,7 +67,7 @@ body{
     justify-items: center;
     justify-content: center;
 
-    background: url(/assets/imgs/photo/shirtShop1.jpg);
+    background: url('./../assets/imgs/unnamed.png');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
