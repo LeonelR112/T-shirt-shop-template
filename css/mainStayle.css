@@ -21,14 +21,11 @@ body{
     padding: 0px;
     color: rgb(32, 32, 32);
     font-family: 'Fjalla One', sans-serif;
+    /*overflow: hidden;*/
 }
 
 /*fuente agregada: font-family: 'Fjalla One', sans-serif;  */
 /*-------------------header-------------------*/
-.header{
-    height: auto; 
-}
-
 .bg-header{
     height: auto;
     background-color: black;
