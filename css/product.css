@@ -1,0 +1,24 @@
+.imgProd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    flex-direction: column;
+}
+
+.listColors{
+    display: flex;
+}
+
+.optionColor{
+    background-color: red;
+    height: 20px;
+    border: 1px solid grey;
+    width: 20px;
+    margin-left: 1em;
+}
+
+.relacionados{
+    display: flex;
+    padding: 2em;
+}
