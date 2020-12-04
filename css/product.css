@@ -21,4 +21,13 @@
 .relacionados{
     display: flex;
     padding: 2em;
+    overflow: scroll;
 }
+
+/*
+@media (max-width: 520px){
+    .relacionados{
+        display: flex;
+        flex-direction: column;
+    }
+}*/
