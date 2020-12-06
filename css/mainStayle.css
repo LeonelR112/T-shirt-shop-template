@@ -134,6 +134,8 @@ body{
 
 .shirtHeart{
     float: left;
+    transform: rotateZ(-10deg);
+    margin: 1em;
 }
 
 #menuRes{
